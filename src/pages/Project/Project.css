@@ -1,0 +1,28 @@
+.lang-switch-container {
+  margin-bottom: 20px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #030303;
+  border-radius: 5px;
+}
+
+.project svg {
+  margin-left: 70%;
+  fill: #229597;
+  transform-origin: center;
+  animation: rotateAnimation 5s infinite linear;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

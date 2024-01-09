@@ -1,0 +1,64 @@
+.label {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.input-field,
+.textarea-field {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #229597;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #229597;
+}
+
+.articles-container {
+  margin-top: 20px;
+}
+
+.article {
+  width: 100%;
+}
+
+.article-title {
+  font-weight: bold;
+}
+
+.article-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px;
+}
+
+.delete-button {
+  border: 2px solid #229597;
+  border-radius: 10px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.articles-block {
+  border: 1px solid #229597;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: small;
+  width: 100%;
+}

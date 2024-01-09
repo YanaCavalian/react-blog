@@ -1,0 +1,41 @@
+body {
+  font-family: "Comic Sans MS", "YourCyrillicFont", Arial, sans-serif;
+  font-style: oblique;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.text-container1 {
+  display: flex;
+  flex-direction: column;
+}
+.my-image {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.contentText1 {
+  flex-grow: 1;
+  margin-right: 30px;
+  color: #151515;
+  text-align: start;
+  font-size: large;
+}
+
+.slider-box {
+  margin-top: 10px;
+  height: 500px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-container div {
+  max-height: 500px;
+  width: 100%;
+}
