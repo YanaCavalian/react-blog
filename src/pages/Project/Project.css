@@ -11,8 +11,15 @@
   border-radius: 5px;
 }
 
+.svg-block {
+  height: 180px;
+  position: relative;
+}
 .project svg {
-  margin-left: 70%;
+  position: absolute;
+  right: 80px;
+  height: 180px;
+  width: 180px;
   fill: #229597;
   transform-origin: center;
   animation: rotateAnimation 5s infinite linear;
@@ -24,5 +31,22 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  .project svg {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 540px) {
+  .project svg {
+    height: 120px;
+    width: 120px;
+    right: calc(50% - 60px);
+  }
+  .svg-block {
+    height: 140px;
   }
 }
